@@ -46,3 +46,4 @@ const getArrayWith3ObjectsWithSpecificFormat = function() {
     { firstName:null, lastName: null}
   ];
 }
+
