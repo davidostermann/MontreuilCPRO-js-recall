@@ -20,11 +20,14 @@ var getArgumentsConcat = function(number1, number2) {
 };
 
 var getFirstGreaterThanSecond = function(number1, number2) {
-  return 'Write your code here !';
+  return number1 > number2;
 };
 
 var getSecondInBetweenFirstAndThird  = function(number1, number2, number3) {
-  return 'Write your code here !';
+  //console.log('Array.from(arguments) : ', Array.from(arguments);
+  //console.log(Array.from(arguments), ' : ', Array.from(arguments).sort()[1] === number2);
+  
+  return Array.from(arguments).sort()[1] === number2
 };
 
 var getFirstName = function(person) {

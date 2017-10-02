@@ -1,48 +1,48 @@
 
-var getString = function() {
+const getString = function() {
   return 'ecrire votre code ici';
 }
 
-var getNumber = function() {
-  return 'ecrire votre code ici';
+const getNumber = function() {
+  return 4553;
 }
 
-var getBoolean = function() {
-  return 'ecrire votre code ici';
+const getBoolean = function() {
+  return false;
 }
 
-var getArray = function() {
-  return 'ecrire votre code ici';
+const getArray = function() {
+  return [];
 }
 
-var getBonjourUppercase = function() {
-  return 'ecrire votre code ici';
+const getBonjourUppercase = function() {
+  return 'BONJOUR';
 }
 
-var get123String = function() {
-  return 'ecrire votre code ici';
+const get123String = function() {
+  return '123';
 }
 
-var getArrayWithRequiredItems = function() {
-  return 'ecrire votre code ici';
+const getArrayWithRequiredItems = function() {
+  return ['foo', 'bar', 'buzz'];
 }
 
-var getArrayWith5Numbers = function() {
-  return 'ecrire votre code ici';
+const getArrayWith5Numbers = function() {
+  return [1, 23, 34, 45, 12];
 }
 
-var getObjectWithRequiredKeys = function() {
-  return 'ecrire votre code ici';
+const getObjectWithRequiredKeys = function() {
+  return {A: 'foo', B: 'bar'};
 }
 
-var getObjectWithRequiredKeys = function() {
-  return 'ecrire votre code ici';
+const getObjectWithArrayWith5Numbers = function() {
+  return {A: [1, 2, 3, 4, 5]};
 }
 
-var getObjectWithArrayWith5Numbers = function() {
-  return 'ecrire votre code ici';
-}
-
-var getArrayWith3ObjectsWithSpecificFormat = function() {
-  return 'ecrire votre code ici';
+const getArrayWith3ObjectsWithSpecificFormat = function() {
+  return [
+    { firstName:null, lastName: null},
+    { firstName:null, lastName: null},
+    { firstName:null, lastName: null}
+  ];
 }
