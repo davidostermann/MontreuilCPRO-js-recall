@@ -19,7 +19,17 @@ var reverseWordsInArray = function(array) {
 }
 
 var everyPossiblePair = function(array) {
-  return 'Write your method here';
+  const r = [];
+  for (var i = 0; i < array.length; i++) {
+    for (var j = i+1; j < array.length; j++) {
+      r.push([array[i], array[j]])
+    }
+  }
+  return r
+  .map(pair => pair.sort())
+  .sort((a, b) => {
+    return a.join('') > b.join('')
+  });
 }
 
 var allElementsExceptFirstThree = function(array) {

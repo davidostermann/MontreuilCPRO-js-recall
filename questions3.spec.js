@@ -27,8 +27,11 @@ describe('javascript-Recall', function() {
         expect(result).toEqual(['god', 'yeknom', 'tnahpele', 'kayak']);
     });
 
-    it('makes every possible pairing of students', function() {
+    fit('makes every possible pairing of students', function() {
         var result = everyPossiblePair(['Jon', 'Tyrion', 'Daenerys']);
+        console.log('sqs====================================');
+        console.log(result);
+        console.log('====================================');
         // sorted alphabetically
         expect(result).toEqual([
             ['Daenerys', 'Jon'],

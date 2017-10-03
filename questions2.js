@@ -12,12 +12,22 @@ var getArgumentsArray = function(arg1, arg2) {
 };
 
 var getArgumentsSum = function(number1, number2) {
-  return 'Write your code here !';
+  return number1 + number2;
 };
 
 var getArgumentsConcat = function(number1, number2) {
-  return 'Write your code here !';
+  // Javascript native
+  return "" + number1 + number2;
+
+  // ES6
+  // return `${number1}${number2}`;
 };
+
+var getInfiniteArgumentsConcat = function (...nums) {
+  // Best technics
+  return nums.join("")
+};
+
 
 var getFirstGreaterThanSecond = function(number1, number2) {
   return number1 > number2;

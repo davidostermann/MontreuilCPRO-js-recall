@@ -29,6 +29,11 @@ describe('javascript-Basecall', function() {
     expect(result).toEqual('302404');
   });
 
+  fit('return a string that concatenate all arguments', function () {
+    var result = getInfiniteArgumentsConcat(302, 404);
+    expect(result).toEqual('302404');
+  });
+
   it('return true (boolean) if first argument is greater than the second one, otherwise return false', function() {
     var result = getFirstGreaterThanSecond(302, 404);
     expect(result).toEqual(false);
